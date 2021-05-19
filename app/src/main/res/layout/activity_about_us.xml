@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".AboutUs">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:background="#E2F0CB"
+            android:id="@+id/UpperLayout">
+
+        <TextView
+                android:layout_width="550dp"
+                android:layout_height="100dp"
+                android:id="@+id/LBLAboutUs"
+                android:text="ABOUT US"
+                android:textSize="60dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/pythonlogo"
+                android:textStyle="bold|italic"
+                android:textColor="#000000"
+                android:fontFamily="sans-serif-condensed-medium"/>
+        <ImageView
+
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/pythonlogo"
+                android:layout_marginTop="60dp"
+                android:id="@+id/pythonlogo"
+                android:layout_marginLeft="18dp"/>
+
+        <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/Gab"
+                android:layout_marginRight="55dp"
+                android:layout_marginTop="200dp"
+                android:src="@drawable/gab"/>
+        <TextView
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="200dp"
+                android:text="Gabriel Namoro is currently a Second year student studying
+Computer Engineering in University of the East Manila gumagawa po kame project boss oks lang
+wala na akong maisip na mailagay saten haha putangina mo"
+                android:layout_marginLeft="140dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:id="@+id/LBLGabBio"
+                android:textSize="20dp"
+                android:textStyle="bold|italic"
+                android:textColor="#000000"/>
+
+        <TextView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="410dp"
+                android:text="Follow Gabriel on: "
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textSize="20dp"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/LBLGabFollow"
+                android:textStyle="bold|italic"
+                android:textColor="#000000"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="490dp"
+            android:id="@+id/LowerLayout"
+            android:background="#B5EAD7"
+            android:layout_below="@+id/UpperLayout">
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
