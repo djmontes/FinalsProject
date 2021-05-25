@@ -46,8 +46,7 @@
                 android:layout_height="200dp"
                 android:layout_marginTop="200dp"
                 android:text="Gabriel Namoro is currently a Second year student studying
-Computer Engineering in University of the East Manila gumagawa po kame project boss oks lang
-wala na akong maisip na mailagay saten haha putangina mo"
+Computer Engineering in University of the East Manila "
                 android:layout_marginLeft="140dp"
                 android:fontFamily="sans-serif-condensed-medium"
                 android:id="@+id/LBLGabBio"
@@ -114,8 +113,7 @@ wala na akong maisip na mailagay saten haha putangina mo"
                 android:layout_height="300dp"
                 android:layout_marginTop="20dp"
                 android:text="Daryl Montes is currently a Second year student studying
-Computer Engineering in University of the East Manila gumagawa po kame project boss oks lang
-wala na akong maisip na mailagay saten haha putangina mo"
+Computer Engineering in University of the East Manila "
                 android:layout_marginLeft="10dp"
                 android:fontFamily="sans-serif-condensed-medium"
                 android:id="@+id/LBLDarylBio"
