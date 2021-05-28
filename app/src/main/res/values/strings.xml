@@ -1,3 +1,35 @@
 <resources>
     <string name="app_name">FinalsProject</string>
+    <string name="set_a_q1">"Is Python case sensitive when dealing with identifiers?"</string>
+    <string name="set_a_q2">"What is the maximum possible length of an identifier?"</string>
+    <string name="set_a_q3">"Which of the following is an invalid variable?"</string>
+    <string name="set_a_q4">"Which of the following is true for variable names in Python?"</string>
+    <string name="set_a_q5">"Which of the following cannot be a variable"?</string>
+    <string name="set_a_q6">"What is output of following:\n\nprint(\'any'.encode())"</string>
+    <string name="set_a_q7">"What will be the output of the following Python code snippet?\n\nnot(10&lt;20) and not (10&gt;30)"</string>
+    <string name="set_a_q8">"What will be the output of the following Python code?\n\n['f', 't'][bool('spam')]"</string>
+    <string name="set_a_q9">"What will be the output of the following Python code snippet if x=1?\n\nx &lt;&lt; 2"</string>
+    <string name="set_a_q10">"What will be the value of x in the following Python expression, if the result of that expression is 2?\n\nx>>2"</string>
+
+    <string name="set_b_q1">"What is the output for: \n\'Crocodile access' [100:200]?"</string>
+    <string name="set_b_q2">"What data type is the object below?\n\nL = [1, 23, ‘hello’, 1]"</string>
+    <string name="set_b_q3">"Suppose list1 is [1, 3, 2], What is list1 * 2?"</string>
+    <string name="set_b_q4">"Find the output of the following program:\n\na = {i: i * i for i in range(6)}\nprint (a)"</string>
+    <string name="set_b_q5">"What will be the output of the following Python code?\n\nmax('what are you')"</string>
+    <string name="set_b_q6">"To add a new element to a list we use which command?"</string>
+    <string name="set_b_q7">"What will be the output of the following Python code?\n\ni = 1\nwhile True:\n      if i%2 == 0:\n            break\nprint(i)\ni += 2"</string>
+    <string name="set_b_q8">"What will be the output of the following Python code?\n\nexample = 'helle'\nexample.rfind('e')"</string>
+    <string name="set_b_q9">"Suppose list1 is [3, 4, 5, 20, 5], what is list1.index(5)?"</string>
+    <string name="set_b_q10">"Suppose list1 is [3, 4, 5, 20, 5, 25, 1, 3], what is list1.count(5)?"</string>
+
+    <string name="set_c_q1">"What will be the output of the following Python code?\n\ndef f1():\n    x=15\n    print(x)\nx=12\nf1()"</string>
+    <string name="set_c_q2">"Which function overloads the + operator?"</string>
+    <string name="set_c_q3">"What will be the output of the following Python code snippet?\n\nprint('Ab!2'.swapcase())"</string>
+    <string name="set_c_q4">"What will be the output of the following Python code snippet?\n\nprint('abcdefcdghcd'.split('cd', 2))"</string>
+    <string name="set_c_q5">"What will be the output of the following Python code?\n\ndef f1(x):\n    global x\n    x+=1\n    print(x)\nf1(15)\nprint('hello')"</string>
+    <string name="set_c_q6">"Which operator is overloaded by __lg__()?"</string>
+    <string name="set_c_q7">"Overriding means changing behaviour of methods of derived class methods in the base class"</string>
+    <string name="set_c_q8">"What is the output of the following code?\n\nNum = 3\nwhile True:\n      if(num%0o12 == 0):\n            break\nprint(num)\nnum +=  1"</string>
+    <string name="set_c_q9">"Private members of a class cannot be accessed."</string>
+    <string name="set_c_q10">"The purpose of name mangling is to avoid unintentional access of private class members."</string>
 </resources>

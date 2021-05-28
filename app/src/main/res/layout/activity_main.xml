@@ -23,31 +23,30 @@
                 android:src="@drawable/pythonlogo"
                 android:layout_marginTop="150dp"
                 android:id="@+id/pythonlogo"
-                android:layout_marginLeft="18dp"/>
+                android:layout_marginLeft="15dp"/>
 
         <TextView
                 android:layout_width="550dp"
                 android:layout_height="100dp"
-                android:text="CODENAME"
-                android:textSize="60dp"
+                android:text="CODENAMES"
+                android:textSize="45dp"
                 android:layout_marginTop="150dp"
                 android:layout_marginLeft="15dp"
                 android:id="@+id/LBLCodenames"
                 android:layout_toRightOf="@+id/pythonlogo"
                 android:textStyle="bold|italic"
                 android:textColor="#000000"
-                android:fontFamily="sans-serif-condensed-medium"/>
+/>
 
         <TextView
                 android:layout_width="550dp"
                 android:layout_height="50dp"
                 android:text="Test your basic Python Knowledge!"
-                android:textSize="25dp"
+                android:textSize="20dp"
                 android:layout_below="@id/LBLCodenames"
                 android:layout_marginLeft="80dp"
                 android:textColor="#000000"
                 android:textStyle="italic|bold"
-                android:fontFamily="sans-serif-condensed-medium"
                 android:id="@+id/LBLDescription"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="10dp"/>
@@ -56,7 +55,7 @@
         <Button android:layout_width="200dp"
                 android:layout_marginTop="50dp"
                 android:layout_height="75dp"
-                android:id="@+id/BTNPLAY"
+                android:id="@+id/btnplay"
                 android:background="@drawable/customplaybtn"
                 android:layout_below="@+id/LBLDescription"
                 android:layout_centerHorizontal="true"
@@ -79,7 +78,7 @@
 
         <Button android:layout_width="200dp"
                 android:layout_height="75dp"
-                android:id="@+id/BTNABOUTUS"
+                android:id="@+id/btn_about_us"
                 android:layout_marginTop="15dp"
                 android:background="@drawable/customaboutusbtn"
                 android:layout_centerHorizontal="true"
@@ -89,8 +88,8 @@
         <Button android:layout_width="200dp"
                 android:layout_marginTop="25dp"
                 android:layout_height="75dp"
-                android:id="@+id/BTNHOWTOPLAY"
-                android:layout_below="@+id/BTNABOUTUS"
+                android:id="@+id/btn_how_to_play"
+                android:layout_below="@+id/btn_about_us"
                 android:background="@drawable/customhowtoplaybtn"
                 android:layout_centerHorizontal="true"
                 android:text="HOW TO PLAY"
@@ -99,9 +98,9 @@
         <Button android:layout_width="200dp"
                 android:layout_marginTop="20dp"
                 android:layout_height="75dp"
-                android:id="@+id/BTNEXIT"
+                android:id="@+id/btn_exit"
                 android:background="@drawable/customexitbtn"
-                android:layout_below="@+id/BTNHOWTOPLAY"
+                android:layout_below="@+id/btn_how_to_play"
                 android:layout_centerHorizontal="true"
                 android:text="EXIT"
         />
